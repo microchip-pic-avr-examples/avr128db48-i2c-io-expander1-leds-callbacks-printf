@@ -1,4 +1,4 @@
-<!-- Please do not change this logo with link -->
+<!-- MPAE-19437 Please do not change this logo with link -->
 
 <a target="_blank" href="https://www.microchip.com/" id="top-of-page">
    <picture>
@@ -8,7 +8,18 @@
    </picture>
 </a>
 
-# Update the title for avr128db48-i2c-io-expander1-leds-callbacks-printf here
+# AVR128DB48 I2C_Host Example Component for CNano Explorer: I/O Expander 1 LEDs (Callbacks, Printf)
+
+The following is the output for this example. 
+Notice the delta 99.6 ms in the B and the 1.11 s in the C columns, respectively of the time plot. The difference from 100 ms, is simply due to the positioning of the cursor. 
+
+![alt text](images/avr128db48-i2c-io-expander1-leds-callbacks-printf_avrDB.png)
+
+The MCC Melody configuration is as shown in the following image. 
+
+![alt text](images/avr128db48-i2c-io-expander1-leds-callbacks-printf_avrDB_configuration.png)
+
+
 
 <!-- This is where the introduction to the example goes, including mentioning the peripherals used -->
 
