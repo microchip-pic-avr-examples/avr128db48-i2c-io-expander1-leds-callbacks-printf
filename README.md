@@ -31,6 +31,8 @@ The image below outlines the complete MPLAB Code Configurator (MCC) Melody confi
 
 ![alt text](images/avr128db48-i2c-io-expander1-leds-callbacks-printf_avrDB_configuration.png)
 
+![alt text](images/avr128db48-i2c-io-expander1-leds-callbacks-printf_avrDB_configuration_pins.png)
+
 
 
 <!-- This is where the introduction to the example goes, including mentioning the peripherals used -->

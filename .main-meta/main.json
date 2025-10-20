@@ -37,7 +37,7 @@
             }
         },
         "author": "Glen Nilsen",
-              "peripherals": [
+        "peripherals": [
             "I2C",
             "GPIO",
             "UART"

@@ -2,7 +2,7 @@
 
 manifest_file_version: 1.0.0
 project: avr128db48-i2c-io-expander1-leds-callbacks-printf
-creation_date: 2025-10-20T15:32:27.435+02:00[Europe/Berlin]
+creation_date: 2025-10-20T16:10:29.154+02:00[Europe/Berlin]
 operating_system: Windows 11
 mcc_mode: IDE
 mcc_mode_version: v6.25
