@@ -7,7 +7,7 @@
  * 
  * @brief This file contains API prototypes and data types of the Universal Asynchronous Receiver and Transmitter (UART) interface.
  *
- * @version UART Driver Version 2.1.1
+ * @version UART Driver Version 2.1.2
 */
 /*
 © [2025] Microchip Technology Inc. and its subsidiaries.

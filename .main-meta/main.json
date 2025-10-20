@@ -4,8 +4,8 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128db48-i2c-io-expander1-leds-callbacks-printf",
-        "version": " ",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "avr128db48-i2c-io-expander1-leds-callbacks-printf",
         "projectName": "avr128db48-i2c-io-expander1-leds-callbacks-printf",
         "shortDescription": "LED chaser increments binary on 6 LEDs every 100 ms. When all on, toggles 8 LEDs every sec. Uses Timer driver callbacks to switch from 100 to 1000 ms. Shows hex/binary of I/O pins via UART printf.",
         "ide": {
@@ -18,13 +18,13 @@
                 "semverRange": "^3.0.0"
             }
         ],
-        "dfp": {
-            "name": "",
-            "semverRange": ""
+         "dfp": {
+            "name": "PIC18F-Q_DFP",
+            "semverRange": "^3.0.0"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": "^5.6.2"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -37,8 +37,23 @@
             }
         },
         "author": "Glen Nilsen",
-        "peripherals": [],
-        "keywords": [],
+              "peripherals": [
+            "I2C",
+            "GPIO",
+            "UART"
+        ],
+        "keywords": [
+            "Data Visualizer",
+            "MPLAB Data Visualizer",
+            "I2C",
+            "UART",
+            "Getting Started",
+            "Melody",
+            "MCC Melody",
+            "Curiosity Nano Explorer",
+            "Example Components",
+            "MCC Melody Example Components"
+        ],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",

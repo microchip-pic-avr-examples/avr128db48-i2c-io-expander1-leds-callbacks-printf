@@ -7,7 +7,7 @@
  * 
  * @brief This file contains the enumeration of different Universal Asynchronous Receiver and Transmitter (UART) baud rates.
  *
- * @version UART Driver Version 2.1.1
+ * @version UART Driver Version 2.1.2
 */
 /*
 © [2025] Microchip Technology Inc. and its subsidiaries.

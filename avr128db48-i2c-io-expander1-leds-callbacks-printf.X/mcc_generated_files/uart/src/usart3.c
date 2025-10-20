@@ -7,7 +7,7 @@
  * 
  * @brief This is the generated driver implementation file for the USART3 driver using the  Universal Synchronous and Asynchronous serial Receiver and Transmitter (USART) module. 
  *
- * @version USART3 Driver Version 2.1.1
+ * @version USART3 Driver Version 2.1.2
 */
 
 /*
@@ -317,7 +317,10 @@ bool USART3_IsTxReady(void)
 
 bool USART3_IsTxDone(void)
 {
-    return usart3IsTxComplete;
+    bool usart3TxCompleteStatus = false;
+    usart3TxCompleteStatus = usart3IsTxComplete;
+    usart3IsTxComplete = false;
+    return usart3TxCompleteStatus;
 }
 
 size_t USART3_ErrorGet(void)
@@ -351,7 +354,7 @@ uint8_t USART3_Read(void)
 ISR(USART3_RXC_vect)
 /* cppcheck-suppress misra-c2012-5.5 */
 {
-    USART3_ReceiveISR();
+    USART3_RxInterruptHandler();
 }
 
 void USART3_ReceiveISR(void)
@@ -437,7 +440,7 @@ void USART3_Write(uint8_t txData)
 ISR(USART3_DRE_vect)
 /* cppcheck-suppress misra-c2012-5.5 */
 {
-    USART3_TransmitISR();
+    USART3_TxInterruptHandler();
 }
 
 /* Interrupt service routine for shift register and data register empty */
@@ -459,7 +462,6 @@ ISR(USART3_TXC_vect)
 void USART3_TransmitISR(void)
 {
     uint8_t tempTxTail;
-    usart3IsTxComplete = false;
 
     // use this default transmit interrupt handler code
     if(sizeof(usart3TxBuffer) > usart3TxBufferRemaining) // check if all data is transmitted

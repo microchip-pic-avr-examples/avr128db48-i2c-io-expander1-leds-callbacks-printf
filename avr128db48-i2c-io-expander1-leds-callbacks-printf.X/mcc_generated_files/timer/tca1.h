@@ -9,7 +9,7 @@
  *
  * @version TCA1 Timer Driver Version 3.0.0
  *
- * @version Package Version 7.0.0
+ * @version Package Version 7.1.0
 */
 /*
 © [2025] Microchip Technology Inc. and its subsidiaries.

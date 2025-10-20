@@ -2,32 +2,41 @@
 
 manifest_file_version: 1.0.0
 project: avr128db48-i2c-io-expander1-leds-callbacks-printf
-creation_date: 2025-04-10T14:12:14.949+02:00[Europe/Berlin]
+creation_date: 2025-10-20T15:28:18.656+02:00[Europe/Berlin]
 operating_system: Windows 11
 mcc_mode: IDE
 mcc_mode_version: v6.25
 device_name: AVR128DB48
 compiler: XC8 3.00
-mcc_version: 5.5.2
-mcc_core_version: 5.7.1
-content_manager_version: 5.0.1
+mcc_version: 5.6.2
+mcc_core_version: 5.8.2
+content_manager_version: 6.0.3-rc.a
 is_mcc_offline: false
-is_using_prerelease_versions: true
-mcc_content_registries: https://registry.npmjs.org/,https://artifacts.microchip.com/artifactory/api/npm/npm/
-device_library: {library_class: com.microchip.mcc.melody.Library, name: Melody, version: 2.8.1}
-packs: {name: AVR-Dx_DFP, version: 2.7.321}
+is_using_prerelease_versions: false
+mcc_content_registries: https://registry.npmjs.org/
+device_library: {library_class: com.microchip.mcc.melody.Library, name: Melody, version: 2.10.0}
+packs: {name: N/A, version: N/A}
 modules:
-- {name: '@mchp-mcc/avr-8bit', type: MELODY, version: 4.13.1-dev.4}
-- {name: '@mchp-mcc/avr8-configuration-bits-v1', type: MELODY, version: 4.3.0}
-- {name: '@mchp-mcc/avr8-pin-manager', type: MELODY, version: 4.6.1}
-- {name: '@mchp-mcc/example-i2c-host', type: MELODY, version: 1.0.0}
-- {name: '@mchp-mcc/i2c-host-driver', type: MELODY, version: 1.1.0-dev.1}
+- {name: '@mchp-mcc/scf-avr8-usart-v1', type: MELODY, version: 10.3.1}
 - {name: '@mchp-mcc/main-manager', type: MELODY, version: 3.1.2}
-- {name: '@mchp-mcc/pin-content-processor', type: MELODY, version: 3.9.1-feat.6}
-- {name: '@mchp-mcc/scf-avr8-clkctrl-v3', type: MELODY, version: 2.1.0-dev.1}
-- {name: '@mchp-mcc/scf-avr8-interrupt-v1', type: MELODY, version: 5.0.13-dev.1}
-- {name: '@mchp-mcc/scf-avr8-tca-v1', type: MELODY, version: 7.0.0}
-- {name: '@mchp-mcc/scf-avr8-twi-v1', type: MELODY, version: 8.2.0}
-- {name: '@mchp-mcc/scf-avr8-usart-v1', type: MELODY, version: 10.2.1}
+- {name: '@mchp-mcc/avr8-configuration-bits-v1', type: MELODY, version: 4.3.0}
+- {name: '@mchp-mcc/scf-avr8-tca-v1', type: MELODY, version: 7.1.0}
+- {name: '@mchp-mcc/avr8-pin-manager', type: MELODY, version: 4.6.2}
+- {name: '@mchp-mcc/scf-avr8-clkctrl-v3', type: MELODY, version: 2.0.10}
+- {name: '@mchp-mcc/example-i2c-host', type: MELODY, version: 1.0.1}
 - {name: '@mchp-mcc/timer', type: MELODY, version: 1.2.3}
+- {name: '@mchp-mcc/scf-avr8-interrupt-v1', type: MELODY, version: 5.0.12}
+- {name: '@mchp-mcc/i2c-host-driver', type: MELODY, version: 1.0.5}
+- {name: '@mchp-mcc/pin-content-processor', type: MELODY, version: 3.11.0}
+- {name: '@mchp-mcc/scf-avr8-twi-v1', type: MELODY, version: 8.2.0}
 - {name: '@mchp-mcc/uart-driver', type: MELODY, version: 1.10.2}
+- {name: '@mchp-mcc/avr-8bit', type: MELODY, version: 4.14.2}
+- {name: '@mchp-mcc/i2c-host-driver', type: MELODY, version: 1.0.5}
+- {name: '@mchp-mcc/pin-content-processor', type: MELODY, version: 3.11.0}
+- {name: '@mchp-mcc/scf-avr8-interrupt-v1', type: MELODY, version: 5.0.12}
+- {name: '@mchp-mcc/avr8-pin-manager', type: MELODY, version: 4.6.2}
+- {name: '@mchp-mcc/scf-avr8-usart-v1', type: MELODY, version: 10.3.1}
+- {name: '@mchp-mcc/scf-avr8-tca-v1', type: MELODY, version: 7.1.0}
+- {name: '@mchp-mcc/avr-8bit', type: MELODY, version: 4.14.2}
+- {name: '@mchp-mcc/example-i2c-host', type: MELODY, version: 1.0.1}
+- {name: '@mchp-mcc/scf-avr8-clkctrl-v3', type: MELODY, version: 2.0.10}

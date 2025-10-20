@@ -7,7 +7,7 @@
  * 
  * @brief This file contains API prototypes and other datatypes for USART3 module.
  *
- * @version USART3 Driver Version 2.1.1
+ * @version USART3 Driver Version 2.1.2
 */
 /*
 © [2025] Microchip Technology Inc. and its subsidiaries.
