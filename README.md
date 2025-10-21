@@ -21,10 +21,10 @@ The example implements an LED chaser, incrementing the binary number on the lowe
 The callbacks implementation uses the Timer driver. To handle the change from 100 to 1000 ms, the timer period is changed and a new timer callback is used. The hex and binary values of the I/O expander pins are displayed as a printf message over the Universal Asynchronous Receiver and Transmitter (UART).
 
 ## Operation
-When running the application using the [MPLAB® Data Visualizer](https://www.microchip.com/en-us/tools-resources/debug/mplab-data-visualizer "MPLAB® Data Visualizer"), you should see something similar to the following. 
+When running the application using the [MPLAB® Data Visualizer](https://www.microchip.com/en-us/tools-resources/debug/mplab-data-visualizer "MPLAB® Data Visualizer"), something similar should be displayed:
 
 ![alt text](images/avr128db48-i2c-io-expander1-leds-callbacks-printf_avrDB.png)
-**Note:** the delta 99.6 ms in the B and the 1.11 s in the C columns, respectively of the time plot. The difference from 100 ms, is simply due to the positioning of the cursor. 
+**Note:** On the time plot, the deltas for the B and C columns are 99.6 ms and 1.11 s, respectively. The 100 ms difference, is due to the positioning of the cursor. 
 
 ## Setup
 The image below outlines the complete MPLAB Code Configurator (MCC) Melody configuration, including all the selected tasks implemented in this example, as seen in the MCC Melody Builder.
@@ -47,7 +47,7 @@ Example Components are a tight integration of learning material directly into MC
 - [MCC Melody I<sup>2</sup>C Example Component (for the Curiosity Nano Explorer)](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=I2C.HOST.EXAMPLE.COMPONENT&version=latest&redirect=true "MCC Melody I<sup>2</sup>C Example Component for the Curiosity Nano Explorer")
 - [MCC Melody Design Patterns for Control Flow](https://onlinedocs.microchip.com/g/GUID-7CE1AEE9-2487-4E7B-B26B-93A577BA154E "MCC Melody Design Patterns for Control Flow")
 
-- [Curiosity Nano Explorer User Guide](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/UserGuides/AVR128DB48-Curiosity-Nano-HW-UserGuide-DS40002186B.pdf "Curiosity Nano Explorer Users Guide")
+- [Curiosity Nano Explorer User Guide](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/UserGuides/CNANO-Explorer-UserGuide-DS50003716.pdf "Curiosity Nano Explorer Users Guide")
 
 - [AVR128DB48 Data Sheet](https://ww1.microchip.com/downloads/en/DeviceDoc/AVR128DB28-32-48-64-DataSheet-DS40002247A.pdf "AVR128DB48 Data Sheet")
 
