@@ -18,7 +18,7 @@ The [I<sup>2</sup>C Host IO Expander 1 - LEDs Example](https://onlinedocs.microc
 
 The example implements an LED chaser, incrementing the binary number on the lower six LEDs every 100 ms. Once the six active-low LEDs are all on, the pattern changes to toggle all eight LEDs every second.
 
-The callbacks implementation uses the Timer driver. To handle the change from 100 to 1000 ms, the timer period is changed and a new timer callback is used. The hex and binary values of the I/O expander pins are displayed as a printf message over the Universal Asynchronous Receiver and Transmitter (UART).
+The Callbacks implementation uses the Timer driver. To handle the change from 100 to 1000 ms, the timer period is changed and a new timer callback is used. The hex and binary values of the I/O expander pins are displayed as a Printf message over the Universal Asynchronous Receiver and Transmitter (UART).
 
 ## Operation
 When running the application using the [MPLAB® Data Visualizer](https://www.microchip.com/en-us/tools-resources/debug/mplab-data-visualizer "MPLAB® Data Visualizer"), something similar should be displayed:
