@@ -14,7 +14,7 @@ The [I<sup>2</sup>C Host IO Expander 1 - LEDs Example](https://onlinedocs.microc
 ), of the [MCC Melody I<sup>2</sup>C Example Component (for the Curiosity Nano Explorer)](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=I2C.HOST.EXAMPLE.COMPONENT&version=latest&redirect=true "MCC Melody I<sup>2</sup>C Example Component for the Curiosity Nano Explorer"
 ), is used here in the Callbacks implementation, with the Printf visualization. 
 
-![alt text](images\avr128db48-i2c-io-expander1-leds-callbacks-printf_avrDB_intro.png)
+![alt text](images/avr128db48-i2c-io-expander1-leds-callbacks-printf_avrDB_intro.png)
 
 The example implements an LED chaser, incrementing the binary number on the lower six LEDs every 100 ms. Once the six active-low LEDs are all on, the pattern changes to toggle all eight LEDs every second.
 
@@ -24,6 +24,7 @@ The Callbacks implementation uses the Timer driver. To handle the change from 10
 When running the application using the [MPLAB® Data Visualizer](https://www.microchip.com/en-us/tools-resources/debug/mplab-data-visualizer "MPLAB® Data Visualizer"), something similar should be displayed:
 
 ![alt text](images/avr128db48-i2c-io-expander1-leds-callbacks-printf_avrDB.png)
+
 **Note:** On the time plot, the deltas for the B and C columns are 99.6 ms and 1.11 s, respectively. The 100 ms difference, is due to the positioning of the cursor. 
 
 ## Setup

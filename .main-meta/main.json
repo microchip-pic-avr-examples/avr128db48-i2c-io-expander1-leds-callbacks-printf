@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128db48-i2c-io-expander1-leds-callbacks-printf",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "avr128db48-i2c-io-expander1-leds-callbacks-printf",
         "projectName": "avr128db48-i2c-io-expander1-leds-callbacks-printf",
         "shortDescription": "LED chaser increments binary on 6 LEDs every 100 ms. When all on, toggles 8 LEDs every sec. Uses Timer driver callbacks to switch from 100 to 1000 ms. Shows hex/binary of I/O pins via UART printf.",
